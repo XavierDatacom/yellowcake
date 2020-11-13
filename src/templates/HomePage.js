@@ -15,13 +15,6 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video,
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
     </section>
- 
-    <PageHeader
-      large
-      title={title}
-      subtitle={subtitle}
-      backgroundImage={featuredImage}
-    />
 
     <section className="section">
       <div className="container">

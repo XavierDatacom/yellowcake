@@ -9,7 +9,7 @@ import BackgroundVideo from '../components/BackgroundVideo'
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video,
   videoPoster,
-  videoTitle, }) => (
+  videoTitle }) => (
   <main className="Home">
       
       <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>

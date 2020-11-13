@@ -10,7 +10,7 @@ featuredImage: https://ucarecdn.com/dfec2066-af81-46a0-9ea0-6ece8e307b19/-/previ
 subtitle: ""
 title: Data Quality Consulting
 template: HomePage
-video: https://ucarecdn.com/fa067ad2-9a90-4b11-a225-f30d27467249/
+video: https://ucarecdn.com/ff61e688-6b8d-4258-a127-90917c9ba3e4/
 videoTitle: AMELIOREZ LA QUALITÉ DE VOS DONNÉES POUR LE DIGITAL !
 ---
 ```javascript

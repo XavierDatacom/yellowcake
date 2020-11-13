@@ -4,10 +4,18 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import BackgroundVideo from '../components/BackgroundVideo'
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
+export const HomePageTemplate = ({ title, subtitle, featuredImage, body,  video,
+  videoPoster,
+  videoTitle, }) => (
   <main className="Home">
+      
+      <BackgroundVideo poster={videoPoster} videoTitle={videoTitle}>
+        {video && <source src={video} type="video/mp4" />}
+      </BackgroundVideo>
+ 
     <PageHeader
       large
       title={title}
